@@ -1,0 +1,16 @@
+package introtojava;
+
+public class ASCIIExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+
+		    char a = 'B';
+		    int ascii = a;
+		    System.out.println("The ASCII value of " + a + " is: " + ascii);
+
+		    // output: The ASCII value of B is: 65
+		}
+
+	}
