@@ -15,7 +15,7 @@ public class Calculator {
 		System.out.println("Press 7 for finding Reciprocal");
 		
 		System.out.println("Display Numpad");
-		int op = scanner.nextInt();
+		
 		Scanner scanner = new Scanner(System.in);
 		
 		int num1 = scanner.nextInt();
@@ -25,8 +25,9 @@ public class Calculator {
 		System.out.println("Enter the second number");
 		
 		double num11 = scanner.nextDouble();
+		int op = 0;
 	if (op == 5) {
-		System.out.println(num11 * num2);
+		System.out.println(num1 * num2);
 	}
 	else if (op == 6) {
 		System.out.println(Math.sqrt(num11));

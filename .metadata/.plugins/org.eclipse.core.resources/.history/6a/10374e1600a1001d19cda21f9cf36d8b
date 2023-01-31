@@ -1,0 +1,22 @@
+
+public class Constructor_Car_Class {
+	String color;
+	String brand;
+	int price;
+
+	public Constructor_Car_Class(String color, String brand, int price) {
+		super();
+		this.color = color;
+		this.brand = brand;
+		this.price = price;
+	}
+
+
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Car defaultCar = new Car();
+	    defaultCar.printCarDetails();
+	}
+
+}
